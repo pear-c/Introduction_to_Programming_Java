@@ -102,7 +102,4 @@ public class Quiz_3_1 {
 
         System.out.println("최대공약수: " + gcd(a, b));
     }
-    public static void main(String[] args) {
-        Problem13();
-    }
 }
