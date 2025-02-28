@@ -1,7 +1,6 @@
 package Chap_05;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 
 public class Hand {
     private ArrayList<Card> cards;
@@ -9,6 +8,10 @@ public class Hand {
     // 초기 핸드
     public Hand() {
         cards = new ArrayList<>();
+    }
+
+    public ArrayList<Card> getCards() {
+        return cards;
     }
 
     // 손 패에 카드 추가
